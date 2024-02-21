@@ -1,3 +1,4 @@
+import Menu from './components/Menu';
 
 export const metadata = {
   title: 'Create Next App',
@@ -7,6 +8,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="pt-br">
+      <Menu/>
       <body>{children}</body>
     </html>
   )
