@@ -1,8 +1,9 @@
 import Link from "next/link";
+import styles from "./menu.module.css"
 
 export default function Menu(){
     return(
-        <header>
+        <header className={styles.cabecalho}>
             <h1>Menu</h1>
             <nav>
                 <ul>
